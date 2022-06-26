@@ -1,4 +1,5 @@
 from pymongo import MongoClient
 db=MongoClient.database
 collection= db.students
-find
+documents=db.students.find_one({james})
+print(doc[james])
