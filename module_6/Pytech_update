@@ -1,1 +1,4 @@
-
+from pymongo import MongoClient
+db=MongoClient.database
+collection= db.students
+find
